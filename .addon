@@ -1,20 +1,5 @@
 {
-	"name": "SCP Restoration",
-	"version": "0.1",
-	"sharedassets": "*.*",
-
-	"depends": 
-	[
-		"base",
-		"rust"
-	],
-	
-	"gamemodes":
-	[
-		{
-			"name": "scprestoration",
-			"title": "SCP Restoration",
-			"description": "..."
-		}
-	]
+    "sharedassets": "*.*",
+    "type": "game",
+    "ident": "scprestoration.scprestoration"
 }
