@@ -1,5 +1,20 @@
 {
+	"name": "SCP Restoration",
+	"version": "0.1",
 	"sharedassets": "*.*",
-	"type": "game",
-	"ident": "mesafer.scprestoration"
+
+	"depends": 
+	[
+		"base",
+		"rust"
+	],
+	
+	"gamemodes":
+	[
+		{
+			"name": "scprestoration",
+			"title": "SCP Restoration",
+			"description": "..."
+		}
+	]
 }
