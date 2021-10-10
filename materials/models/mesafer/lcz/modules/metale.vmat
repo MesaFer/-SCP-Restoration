@@ -1,9 +1,0 @@
-// Converted with vmt_to_vmat.py
-
-Layer0
-{
-	shader "vr_complex.vfx"
-
-	TextureColor "materials\models\mesafer\lcz\modules\metale_color.tga"
-	TextureNormal "materials\models\mesafer\lcz\modules\metale_normal.tga"
-}

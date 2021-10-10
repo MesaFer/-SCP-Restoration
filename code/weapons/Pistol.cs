@@ -1,6 +1,6 @@
 ﻿using Sandbox;
 
-[Library( "weapon_pistol", Title = "Пистолет", Spawnable = true )]
+[Library( "weapon_pistol", Title = "Pistol", Spawnable = true )]
 partial class Pistol : Weapon
 {
 	public override string ViewModelPath => "weapons/rust_pistol/v_rust_pistol.vmdl";
@@ -29,7 +29,6 @@ partial class Pistol : Weapon
 		
 		(Owner as AnimEntity)?.SetAnimBool( "b_attack", true );
 
-		Log.Info("Пиу");
 		ShootEffects();
 		PlaySound( "rust_pistol.shoot" );
 		ShootBullet( 0.05f, 1.5f, 9.0f, 3.0f );

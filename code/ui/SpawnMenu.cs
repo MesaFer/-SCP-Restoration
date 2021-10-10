@@ -38,8 +38,8 @@ public partial class SpawnMenu : Panel
 		{
 			var tabs = right.Add.Panel( "tabs" );
 			{
-				tabs.Add.Button( "Инструменты" ).AddClass( "active" );
-				tabs.Add.Button( "Utility (Не рабочее)" );
+				tabs.Add.Button( "Tools" ).AddClass( "active" );
+				tabs.Add.Button( "Utility" );
 			}
 			var body = right.Add.Panel( "body" );
 			{
